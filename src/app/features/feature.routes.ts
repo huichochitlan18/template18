@@ -9,6 +9,10 @@ export const featureRoutes: Routes = [
         path: '',
         loadComponent: () => import('../features/home/home.component'),
       },
+      {
+        path: 'users',
+        loadComponent: () => import('../features/users/users.component'),
+      },
       { path: '**', redirectTo: '' },
     ],
   },

@@ -1,0 +1,13 @@
+.active {
+  background: #fff3e0 !important;
+  border-left: 4px solid #c43c00;
+}
+
+.mat-list-item {
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.mdc-list {
+  padding-top: 0 !important;
+}
